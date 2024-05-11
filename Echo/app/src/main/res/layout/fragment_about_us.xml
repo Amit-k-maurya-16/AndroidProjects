@@ -1,0 +1,116 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:paddingTop="11dp"
+    android:background="#ffffff">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="National Institute of Technology, Manipur"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img_20180711_151844"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/itsMe"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="176dp"
+        android:text="Eventually, this is the first mobile app developed by me.
+                              You are free to review it" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Amit Kumar Maurya"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="151dp"
+        android:layout_marginStart="48dp"
+        android:text="You can connect with me on:-" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="121dp"
+        android:text="https://facebook.com/amit.k.maurya.16"
+        android:id="@+id/fb"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/fb"
+        android:layout_marginBottom="91dp"
+        android:id="@+id/twitter"
+        android:text="https://twitter.com/amit_k_maurya_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp"
+        android:layout_alignStart="@+id/fb"
+        android:id="@+id/insta"
+        android:text="https://instagram.com/amit.k.maurya.16" />
+
+    <ImageView
+        android:id="@+id/fbI"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/fb"
+        android:src="@drawable/facebook"
+        android:layout_marginLeft="35dp"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/fbI"
+        android:layout_alignTop="@+id/twitter"
+        android:src="@drawable/twitter" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@id/insta"
+        android:src="@drawable/instagram"
+        android:layout_alignStart="@+id/fbI"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Version 1.0.0"
+        android:textColor="@color/second"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</RelativeLayout>
